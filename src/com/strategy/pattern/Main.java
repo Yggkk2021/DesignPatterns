@@ -7,6 +7,7 @@ import com.strategy.pattern.impl.OperationSubstract;
 /**
  * Create by yangshunfan
  * 2018/2/2 17:02
+ * 策略模式
  */
 public class Main {
     public static void main(String[] args) {
