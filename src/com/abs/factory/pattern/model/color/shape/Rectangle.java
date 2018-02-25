@@ -1,4 +1,4 @@
-package com.abs.factory.pattern;
+package com.abs.factory.pattern.model.color.shape;
 
 /**
  * Create by yangshunfan

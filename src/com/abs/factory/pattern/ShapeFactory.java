@@ -1,6 +1,12 @@
 package com.abs.factory.pattern;
 
 
+import com.abs.factory.pattern.model.color.Color;
+import com.abs.factory.pattern.model.color.shape.Rectangle;
+import com.abs.factory.pattern.model.color.shape.Roundness;
+import com.abs.factory.pattern.model.color.shape.Shape;
+import com.abs.factory.pattern.model.color.shape.Square;
+
 /**
  * Create by yangshunfan
  * 2018/1/20 21:11

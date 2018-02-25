@@ -1,5 +1,8 @@
 package com.abs.factory.pattern;
 
+import com.abs.factory.pattern.model.color.Color;
+import com.abs.factory.pattern.model.color.shape.Shape;
+
 /**
  * Create by yangshunfan
  * 2018/1/20 21:23
