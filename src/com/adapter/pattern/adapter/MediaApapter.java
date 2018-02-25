@@ -13,6 +13,10 @@ public class MediaApapter implements MediaPlayer {
 
     AdvancedMediaPlayer advancedMediaPlayer;
 
+    /**
+     * 适配器，适配后创建不同的实例
+     * @param audioType
+     */
     public MediaApapter(String audioType) {
         if (audioType.equalsIgnoreCase("vlc")) {
             advancedMediaPlayer = new VlcPlayer();
@@ -21,6 +25,11 @@ public class MediaApapter implements MediaPlayer {
         }
     }
 
+    /**
+     * 适配后播放
+     * @param audioType
+     * @param fileName
+     */
     @Override
     public void play(String audioType, String fileName) {
         if (audioType.equalsIgnoreCase("vlc")) {
